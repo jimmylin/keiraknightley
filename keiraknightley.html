@@ -1,0 +1,33 @@
+<head>
+  <title>KeiraKnightley???</title>
+  <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <br/><br/><br/><br/><br/>
+  {{> hello}}
+
+</body>
+
+<template name="hello">
+{{#with actress}}
+<div class="row">
+  <div class="col-12 text-center"><h2>Keira Knightley??</h2><br/></div>
+</div>
+<div class="row">
+  <div class="col-md-2 col-md-offset-5"><img src={{image.src}} /> <br/><br/><br/></div>
+</div>
+<div class="row">
+  <div id="info" class="col-md-2 col-md-offset-5" style="display:none"><p>Actually this is...</p><h3>{{name}}</h3><a href="{{url}}" style="color:#fff">{{url}}</a><br/><br/></div>
+  <div id="info2" class="col-md-2 col-md-offset-5" style="display:none"><p>Correct! This is...</p><h3>{{name}}</h3><a href="{{url}}" style="color:#fff">{{url}}</a><br/><br/></div>
+  <div id="info3" class="col-md-2 col-md-offset-5" style="display:none"><p>WOW! This is indeed...Keira Knightley!!!</p><br/><br/></div>
+  <div id="info4" class="col-md-2 col-md-offset-5" style="display:none"><p>Whoops! This actually is Keira Knightley.. TROLOLOL</p><br/><br/></div>
+</div>
+<div class="row">
+  <div class="col-12 text-center" role="group" aria-label="...">
+    <button type="button" id="yes" class="btn btn-primary btn-lg btn-default">YES</button>
+    <button type="button" id="no" class="btn btn-danger btn-lg btn-default">NO</button>
+  </div>
+</div>
+{{/with}}
+</template>

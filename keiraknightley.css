@@ -1,0 +1,10 @@
+/* CSS declarations go here */
+
+body { 
+  background-color: #FF1D8E;
+  color: #fff;
+}
+
+h2, h3 {
+  font-family: 'Rock Salt', cursive;
+}
